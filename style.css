@@ -1,0 +1,1856 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+
+/*font import */
+@font-face{
+	font-family: 'santio';
+		src: url("Fonts/Santio/Santio regular.ttf");
+	font-style: normal;
+	font-weight: 100;
+}
+
+/*Main Page Title */
+.title {
+  margin-top: 10px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  font-size: 160px;
+  color: #59BDB6;
+  text-align: center;
+
+  /*-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; */
+}
+
+/*Main Page Title SCRAMBLE */
+#messenger1{
+  margin-top: 10px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  font-size: 160px;
+  color: #59BDB6;
+  text-align: center;
+}
+
+.back {
+  background-color: #02060B !important;
+}
+
+.back1 {
+  background-color: #FF5E5E !important;
+}
+/*Instruction title */
+.instruct {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  font-size: 90px;
+  color: #78E4FF;
+  text-align: center;
+}
+/*Instruction text */
+.instructtext {
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: whitesmoke;
+  text-align: left;
+	margin-top: 100px;
+}
+
+.instructtext2 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: whitesmoke;
+  text-align: left;
+	margin-top: 50px;
+}
+
+.instructtext3 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: whitesmoke;
+  text-align: left;
+	margin-top: 170px;
+}
+
+
+.instructtext4 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: whitesmoke;
+  text-align: center;
+	margin-top: 80px;
+		margin-bottom: 20px;
+
+}
+.instructtext5 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: #78E4FF;
+  text-align: center;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.instructtext6 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: #78E4FF;
+  text-align: center;
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+/*Chapter 5 margin bottom page */
+.marginbottom{
+		margin-bottom: 30px;
+
+}
+
+/*animation index page */
+.index{
+
+margin-left: 250px;
+	margin-right: 180px;
+	margin-top: -220px;
+	position: absolute;
+
+
+	/*
+		  margin-left: 280px;
+	margin-right: 700px;
+	margin-top: -200px;
+margin-bottom: 900px;
+	 position: absolute;
+			  background-color: blue;*/
+}
+
+
+/*Chapter title */
+
+/*
+.chapter {
+  margin-top: 280px;
+  margin-bottom: 100px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  font-size: 90px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+*/
+.countdown {
+ position: relative;
+	  margin-top: 80px;
+  margin-bottom: 100px;
+	  text-align: center;
+  color: whitesmoke;
+
+  font-family: 'Teko', sans-serif;
+	  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+
+.starttext {
+ position: relative;
+text-align: center;
+  color: #78E4FF;
+
+  font-family: 'Teko', sans-serif;
+	  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 4px;
+  overflow: hidden;
+	    text-decoration: none;
+
+	
+}
+
+.starttext1 {
+ position: relative;
+	  text-align: center;
+  color: #78E4FF;
+
+  font-family: 'Teko', sans-serif;
+	  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+.starttext:hover {
+    opacity: 0.7;
+	color: whitesmoke;
+	    text-decoration: none;
+
+}
+
+.middle {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+	
+}
+
+.middle2 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  text-align: left;
+	
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+}
+
+/*Instagram*/
+.fa {
+	  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+	color: whitesmoke;
+}
+
+
+.fa-instagram {
+
+  color: #78E4FF;
+}
+
+
+/*Instagram*/
+
+.chapter {
+ position: relative;
+	  margin-top: 280px;
+  margin-bottom: 100px;
+	  text-align: center;
+  color: whitesmoke;
+
+  font-family: 'Teko', sans-serif;
+	  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 4px;
+  overflow: hidden;
+	
+/*	
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);*/
+}
+
+/*CHAPTER SCRAMBLE TEXT */
+
+#messenger {
+ position: relative;
+	  margin-top: 280px;
+  margin-bottom: 100px;
+	  text-align: center;
+  color: whitesmoke;
+
+  font-family: 'Teko', sans-serif;
+	  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+/*CHAPTER 2 SCRAMBLE TEXT */
+
+#messenger2 {
+ position: relative;
+	  margin-top: 280px;
+  margin-bottom: 100px;
+	  text-align: center;
+  color: whitesmoke;
+
+  font-family: 'Teko', sans-serif;
+	  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+/*CHAPTER 3 SCRAMBLE TEXT */
+
+#messenger3 {
+ position: relative;
+	  margin-top: 280px;
+  margin-bottom: 100px;
+	  text-align: center;
+  color: whitesmoke;
+
+  font-family: 'Teko', sans-serif;
+	  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+
+/*CHAPTER 4 SCRAMBLE TEXT */
+
+#messenger4 {
+ position: relative;
+	  margin-top: 280px;
+  margin-bottom: 100px;
+	  text-align: center;
+  color: whitesmoke;
+
+  font-family: 'Teko', sans-serif;
+	  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+
+/*CHAPTER 5 SCRAMBLE TEXT */
+
+#messenger5 {
+ position: relative;
+	  margin-top: 280px;
+  margin-bottom: 100px;
+	  text-align: center;
+  color: whitesmoke;
+
+  font-family: 'Teko', sans-serif;
+	  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 3.7s;
+  -moz-animation-delay: 3.7s;
+  animation-delay: 3.7s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay:3s;
+  animation-delay: 3s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 7.2s;
+  -moz-animation-delay:7.2s;
+  animation-delay: 7.2s;
+}
+
+.fade-in.four {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay:0.1s;
+  animation-delay: 0.1s;
+}
+
+
+
+/*Scroll */
+.scroll {
+  height: 100px;
+  margin-bottom: 200px;
+}
+/*Scroll down text */
+.scrolltext {
+  margin-top: -180px;
+  margin-bottom: 200px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+
+/*Main Page Buttons */
+.button {
+  background-color: #06EFF8;
+  border: none;
+  border-radius: 4px;
+  color: #292929;
+  padding: 14px 40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 6px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  width: 20%;
+}
+
+
+
+
+/*Main Page Buttons */
+.button1 {
+  background-color: #06EFF8;
+  border: none;
+width: 300px;
+	height: 100px;
+}
+
+/*Main Page Buttons */
+.button2 {
+  margin-top: 300px;
+	height: 100px;
+	width: 300px;
+	margin-left: 600px;
+	  border: 2px solid #4CAF50; /* Green */
+
+}
+
+/*animation Page Buttons */
+.banimation {
+		margin-top: 530px;
+	margin-left:-14px;
+
+ width: 390px;
+	height: 150px;
+	 position: absolute;
+
+
+		/*
+	margin-left: 260px;
+	margin-right: 700px;
+	margin-top: -200px;
+margin-bottom: 900px;
+	 position: absolute;
+	/*
+		  background-color: blue;
+
+  bottom: 20px;
+  right: 20px;
+  padding-left: 650px;
+  padding-right: 20px;*/
+
+}
+
+
+/*Chapter 2animation Page Buttons */
+.buttonbox {
+	 /*    width: 250px;
+    height: 100px;
+		    background: white;
+  margin-top: -30px;
+  margin-left: 975px;
+    border: 5px magenta solid; */
+   margin-top: -30px;
+  margin-left: 975px;
+		 position: absolute;
+ width: 300px;
+	height: 120px;
+
+
+}
+
+
+
+/*Chapter 2animation Page Buttons */
+.banimation2 {
+	     width: 350px;
+
+
+ /*margin-top: 100px;
+  margin-left: 200px;
+  margin-bottom: 30px;*/
+
+}
+
+
+
+.bracelet {
+	width: 800px;
+margin-bottom: -100px;
+	margin-top: -50px;
+		margin-left: -40px;
+
+}
+.button:hover {
+  opacity: 0.6
+}
+/*Back Button */
+.backbutton {
+  background-color: #06EFF8;
+  border: none;
+  border-radius: 4px;
+  color: #292929;
+  padding: 14px 40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 6px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  width: 20%;
+  margin-top: 70px;
+  margin-left: 1000px;
+  margin-bottom: 30px;
+}
+.backbutton:hover {
+  opacity: 0.6
+}
+/*Chapter Button */
+.chapterbutton {
+  background-color: #06EFF8;
+  border: none;
+  border-radius: 4px;
+  color: #292929;
+  padding: 14px 40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 6px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  width: 20%;
+  margin-top: 70px;
+  margin-left: 1000px;
+  margin-bottom: 30px;
+}
+.chapterbutton:hover {
+  opacity: 0.6
+}
+.center {
+  position: fixed;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+}
+/* square*/
+.square {
+  height: 270px;
+  width: 480px;
+	margin-top: 40px;
+  background-color: #555;
+}
+.row1 {
+  margin-left: -50px;
+  margin-bottom: 20px;
+}
+/* spacing*/
+.no-gutters {
+  margin-top: 20px;
+}
+.space {
+	
+  margin-right: 20px;
+}
+
+.comicspace {
+	
+	margin-left: 400px;
+}
+
+
+/* resize image*/
+.resize {
+  width: 555px; /* you can use % */
+  height: auto;
+}
+
+
+/* resize image*/
+.resize2 {
+  width: 548px; /* you can use % */
+
+
+}
+
+
+
+
+/* resize image*/
+.resize3 {
+  width: 548px; /* you can use % */
+			margin-left: 10px;
+
+
+
+}
+
+/* resize image*/
+.resize4 {
+  width: 350px; /* you can use % */
+			margin-right: 20px;
+				margin-bottom: 10px;
+
+}
+
+/* resize gif video instructions*/
+.resize6 {
+  width: 503px; /* you can use % */
+  height: auto;
+}
+
+
+
+
+
+
+
+/*PLAY BUTTON TO VIDEO */
+
+.play-button {
+  width: 152px;
+  height: 152px;
+  position: relative;
+  cursor: pointer;
+}
+
+.play-backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.play-close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 15px);
+  border: none;
+  outline: none;
+  background: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.play-close::before,
+.play-close::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background-color: #fff;
+}
+
+.play-close::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.play-circles {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.play-perspective {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: -230px;
+  top: -125px;
+}
+
+.play-triangle {
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.block{
+	 position: absolute;
+  bottom: 20px;
+  right: 20px;
+  /*background-color: blue;*/
+  padding-left: 650px;
+  padding-right: 20px;
+}
+
+/*dialogue*/
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+	 /* font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;*/
+	 font-family: 'santio';
+  font-weight: 100;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+	background-color: #59BDB6;
+  padding-left: 10px;
+
+
+}
+
+.block1{
+	 position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: blue;
+  color: blue;
+  padding-left: 700px;
+  padding-right: 20px;
+}
+
+.bottom-right2 {
+  position: absolute;
+  bottom: 8px;
+  left: 200px;
+	background-color: #59BDB6;
+	  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+	  padding-left: 13px;
+
+}
+
+.block2{
+	 position: absolute;
+  bottom: 5px;
+  left: 20px;
+  padding-left: 230px;
+
+  padding-right: 15px;
+}
+
+.block3{
+	 position: absolute;
+  bottom: 5px;
+  left: 10px;
+  padding-left: 10px;
+
+  padding-right: 220px;
+}
+.dialogue {
+  position: absolute;
+  bottom: 8px;
+  right: 50px;
+	background-color: #59BDB6;
+	  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+	  padding-left: 4px;
+		  padding-right: 4px;
+}
+
+.block4{
+	 position: absolute;
+  bottom: 5px;
+  left: 13px;
+
+  padding-right: 160px;
+}
+.dialogue1 {
+    position: absolute;
+  bottom: 8px;
+  left: 200px;
+	background-color: #59BDB6;
+	  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+	  padding-left: 13px;
+}
+
+
+
+.block5{
+	 position: absolute;
+  bottom: 5px;
+  left: 20px;
+  padding-right: 170px;
+
+}
+.dialogue2 {
+    position: absolute;
+  bottom: 8px;
+  left: 10px;
+	background-color: #59BDB6;
+	  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+	padding: 15px 13px 15px 13px; 
+}
+
+.block6{
+	 position: absolute;
+  bottom: 440px;
+  left: 10px;
+
+  padding-right: 660px;
+}
+.dialogue3 {
+    position: absolute;
+  bottom: 8px;
+  left: 10px;
+	background-color: #59BDB6;
+	  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+	padding: 15px 13px 15px 13px; 
+	
+
+}
+
+.block7{
+	 position: absolute;
+  bottom: 30px;
+
+  padding-left: 660px;
+
+  padding-right: 20px;
+}
+.dialogue4 {
+    position: absolute;
+  bottom: 8px;
+  left: 700px;
+	background-color: #59BDB6;
+	  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+	padding: 15px 13px 15px 13px; 
+	
+
+}
+
+
+
+/* ///////////////////// CHAPTER 2 DIALOGUE BLOCK STYLE ////////////////////// */
+.ch2block1{
+	 position: absolute;
+  bottom: 250px;
+  right: 20px;
+  padding-left: 550px;
+  padding-right: 20px;
+}
+
+.ch2block2{
+		 position: absolute;
+  bottom: 130px;
+  right: 10px;
+  padding-left: 240px;
+  padding-right: 10px;
+	/*
+	 position: absolute;
+  bottom: 130px;
+  right: 500px;
+  padding-left: 220px;
+  padding-right: 35px;
+	background-color: blue;*/
+
+}
+
+.ch2block3{
+	 position: absolute;
+  bottom: 70px;
+  right: 3px;
+  padding-left: 260px;
+  padding-right: 3px;
+
+}
+
+
+.ch2block4{
+	 position: absolute;
+  bottom: 45px;
+  right: 3px;
+  padding-left: 250px;
+  padding-right: 3px;
+}
+
+.ch2block5{
+	 position: absolute;
+  bottom: 100px;
+  right: 3px;
+  padding-left: 290px;
+  padding-right: 3px;
+}
+
+.ch2block6{
+	 position: absolute;
+  bottom: 280px;
+  right: 20px;
+  padding-left: 600px;
+  padding-right: 20px;
+}
+
+
+.ch2block7{
+	 position: absolute;
+  bottom: 170px;
+  right: 3px;
+  padding-left: 160px;
+  padding-right: 3px;
+}
+
+.ch2block8{
+	 position: absolute;
+  bottom: 360px;
+  right: 0px;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.ch2block9{
+	 position: absolute;
+  bottom: 250px;
+  right: 500px;
+  padding-left: 70px;
+	  padding-right: 30px;
+
+}
+
+.ch2block10{
+	 position: absolute;
+  bottom: 40px;
+  right: 0px;
+  padding-left: 250px;
+  padding-right: 15px;
+}
+
+/*row panel 19*/
+.ch2block11{
+	 position: absolute;
+  bottom: 250px;
+  right: 10px;
+  padding-left: 540px;
+	  padding-right: 10px;
+}
+
+/*row panel 26*/
+.ch2block12{
+	 position: absolute;
+  bottom: 140px;
+  right: 0px;
+  padding-left: 270px;
+  padding-right: 15px;
+}
+
+/*row panel 27*/
+.ch2block13{
+	 	 position: absolute;
+  bottom: 140px;
+  right: 0px;
+  padding-left: 280px;
+  padding-right: 15px;
+}
+
+/*row panel 29*/
+.ch2block14{
+	 position: absolute;
+  bottom: 120px;
+  right: 20px;
+  padding-left: 250px;
+  padding-right: 0px;
+}
+
+.ch2block15{
+	 position: absolute;
+  bottom: 150px;
+  right: 30px;
+  padding-left: 200px;
+  padding-right: 0px;
+}
+
+/*row panel 35*/
+.ch2block16{
+	 position: absolute;
+  bottom: 100px;
+  right: 20px;
+  padding-left: 250px;
+  padding-right: 0px;
+}
+
+/*row panel 37 */
+.ch2block17{
+	 position: absolute;
+  bottom: 70px;
+  right: 10px;
+  padding-left: 230px;
+  padding-right: 0px;
+}
+
+/*row panel  */
+.ch2block18{
+	 position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 230px;
+  padding-right: 0px;
+}
+
+/*row panel  41*/
+.ch2block19{
+	 position: absolute;
+  bottom: 130px;
+  right: 10px;
+  padding-left: 180px;
+  padding-right: 0px;
+}
+
+/*row panel 42 */
+.ch2block20{
+	 position: absolute;
+  bottom: 20px;
+  left: 5px;
+  padding-right: 210px;
+}
+
+.ch2block21{
+	 position: absolute;
+  bottom: 80px;
+  right: 3px;
+  padding-left: 160px;
+  padding-right: 3px;
+}
+
+.ch2block22{
+	 position: absolute;
+  bottom: 110px;
+  right: 3px;
+  padding-left: 130px;
+  padding-right: 3px;
+}
+
+.ch2block23{
+	 position: absolute;
+  bottom: 70px;
+  right: 3px;
+  padding-left: 130px;
+  padding-right: 3px;
+
+}
+
+.ch2block24{
+	 position: absolute;
+  bottom: 120px;
+  right: 120px;
+  padding-left: 10px;
+  padding-right: 3px;
+}
+
+
+
+
+
+/* ///////////////////// CHAPTER 3 DIALOGUE BLOCK STYLE ////////////////////// */
+
+/* chapter 3 panel  2*/
+.ch3block1{
+		 position: absolute;
+  bottom: 110px;
+  left: 30px;
+  padding-left: 200px;
+  padding-right: 5px;
+
+}
+
+/* chapter 3 panel  4*/
+.ch3block2{
+		 position: absolute;
+  bottom: 160px;
+  left: 10px;
+  padding-left: 120px;
+  padding-right: 5px;
+
+}
+
+.ch3block3{
+		 position: absolute;
+  bottom: 155px;
+  left: 10px;
+  padding-left: 120px;
+  padding-right: 2px;
+
+}
+
+.ch3block4{
+		 position: absolute;
+  bottom: 60px;
+  left: 10px;
+  padding-left: 150px;
+  padding-right: 10px;
+
+}
+
+/* chapter 3 panel  9*/
+.ch3block5{
+		 position: absolute;
+  bottom: 30px;
+  left: 5px;
+  padding-left: 180px;
+  padding-right: 10px;
+
+}
+
+.ch3block6{
+		 position: absolute;
+  bottom: 70px;
+  left: 5px;
+  padding-left: 210px;
+  padding-right: 10px;
+
+}
+
+.ch3block7{
+		 position: absolute;
+  bottom: 180px;
+  left: 10px;
+  padding-left: 120px;
+  padding-right: 10px;
+
+}
+
+.ch3block8{
+		 position: absolute;
+  bottom: 70px;
+  left: 10px;
+  padding-left: 190px;
+  padding-right: 10px;
+}
+	
+.ch3block9{
+	 position: absolute;
+  bottom: 120px;
+  left: 30px;
+  padding-right: 10px;
+  padding-left: 250px;
+
+}
+
+
+.ch3block10{
+	 position: absolute;
+  bottom: 110px;
+  left: 90px;
+  padding-right: 20px;
+  padding-left: 200px;
+}
+
+.ch3block11{
+	 position: absolute;
+  bottom: 110px;
+  left: 90px;
+  padding-right: 20px;
+  padding-left: 130px;
+}
+
+.ch3block12{
+	 position: absolute;
+  bottom: 110px;
+  left: 90px;
+  padding-right: 20px;
+  padding-left: 130px;
+}
+
+.ch3block13{
+	 position: absolute;
+  bottom: 70px;
+  left: 90px;
+  padding-right: 20px;
+  padding-left: 110px;
+}
+
+.ch3block14{
+	 position: absolute;
+  bottom: 200px;
+  left: 90px;
+  padding-right: 60px;
+  padding-left: 340px;
+}
+
+.ch3block15{
+		 position: absolute;
+  bottom: 70px;
+  left: 90px;
+  padding-right: 20px;
+  padding-left: 110px;
+}
+
+.ch3block16{
+	 position: absolute;
+  bottom: 90px;
+  left: 30px;
+  padding-right: 190px;
+  padding-left: 10px;
+}
+
+
+
+
+/* ///////////////////// CHAPTER 5 DIALOGUE BLOCK STYLE ////////////////////// */
+.ch4block1{
+			 position: absolute;
+  bottom: 90px;
+  right: 20px;
+  padding-left: 520px;
+  padding-right: 20px;
+}
+
+.ch4block2{
+		 position: absolute;
+  bottom: 70px;
+  left: 20px;
+  padding-left: 10px;
+  padding-right: 250px;
+	/*
+	 position: absolute;
+  bottom: 130px;
+  right: 500px;
+  padding-left: 220px;
+  padding-right: 35px;
+	background-color: blue;*/
+
+}
+
+.ch4block3{
+	 position: absolute;
+  bottom: 70px;
+  left: 3px;
+  padding-right: 260px;
+  padding-left: 3px;
+
+}
+
+/*  CHAPTER 4 panel 6 */
+
+.ch4block4{
+	 position: absolute;
+  bottom: 60px;
+  left: 3px;
+  padding-right: 200px;
+  padding-left: 3px;
+}
+
+
+
+.ch4block5{
+	 position: absolute;
+  bottom: 30px;
+  right: 10px;
+  padding-left: 230px;
+  padding-right: 20px;
+}
+
+
+.ch4block6{
+	 position: absolute;
+  bottom: 130px;
+  right: 30px;
+  padding-left: 530px;
+  padding-right: 50px;
+}
+
+.ch4block7{
+	 position: absolute;
+  bottom: 20px;
+  right: 40px;
+  padding-left: 210px;
+  padding-right: 3px;
+}
+
+
+.ch4block8{
+	 position: absolute;
+  bottom: 100px;
+  right: 10px;
+  padding-left: 290px;
+  padding-right: 3px;
+}
+
+.ch4block9{
+	 position: absolute;
+  bottom: 110px;
+  left: 60px;
+  padding-right: 220px;
+  padding-left: 3px;
+}
+
+
+.ch4block10{
+	 position: absolute;
+  bottom: 60px;
+  right: 10px;
+  padding-left: 270px;
+  padding-right: 3px;
+	
+}
+.ch4block11{
+	 position: absolute;
+  bottom: 60px;
+  right: 10px;
+  padding-left: 230px;
+  padding-right: 3px;
+}
+
+.ch4block12{
+	 position: absolute;
+  bottom: 30px;
+  right: 10px;
+  padding-left: 290px;
+  padding-right: 3px;
+}
+
+/* ///////////////////// CHAPTER 5 DIALOGUE BLOCK STYLE ////////////////////// */
+.ch5block1{
+			 position: absolute;
+  bottom: 70px;
+  right: 10px;
+  padding-left: 210px;
+  padding-right: 10px;
+
+}
+
+.ch5block2{
+		 position: absolute;
+  bottom: 70px;
+  right: 10px;
+  padding-left: 240px;
+  padding-right: 10px;
+	/*
+	 position: absolute;
+  bottom: 130px;
+  right: 500px;
+  padding-left: 220px;
+  padding-right: 35px;
+	background-color: blue;*/
+
+}
+
+.ch5block3{
+	 position: absolute;
+  bottom: 70px;
+  right: 3px;
+  padding-left: 260px;
+  padding-right: 3px;
+
+}
+
+
+.ch5block4{
+	 position: absolute;
+  bottom: 130px;
+  right: 3px;
+  padding-left: 280px;
+  padding-right: 3px;
+
+}
+
+	/*Fireflies Text*/
+.ch5block5{
+	 position: absolute;
+  bottom: 70px;
+  right: 7px;
+  padding-left: 220px;
+  padding-right: 3px;
+}
+
+.ch5block6{
+	 position: absolute;
+  bottom: 60px;
+  right: 3px;
+  padding-left: 220px;
+  padding-right: 10px;
+}
+
+	/*wall Text*/
+.ch5block7{
+	 position: absolute;
+  bottom: 50px;
+  right: 3px;
+  padding-left: 280px;
+  padding-right: 10px;
+}
+
+.ch5block8{
+	 position: absolute;
+  bottom: 50px;
+  right: 3px;
+  padding-left: 100px;
+  padding-right: 120px;
+
+}
+
+
+	/*Realizing Text*/
+
+.ch5block9{
+	 position: absolute;
+  bottom: 130px;
+  right: 3px;
+  padding-left: 105px;
+  padding-right: 10px;
+
+}
+
+
+.ch5block10{
+	 position: absolute;
+  bottom: 120px;
+  right: 3px;
+  padding-left: 115px;
+  padding-right: 5px;
+}
+
+
+.ch5block11{
+	 position: absolute;
+  bottom: 140px;
+  right: 3px;
+  padding-left: 105px;
+  padding-right: 10px;
+}
+
+.ch5block12{
+	 position: absolute;
+  bottom: 100px;
+  right:3px;
+  padding-left: 290px;
+  padding-right: 7px;
+
+}
+
+.ch5block13{
+	 position: absolute;
+  bottom: 60px;
+  right: 3px;
+  padding-left: 200px;
+  padding-right: 10px;
+
+}
+
+.ch5block14{
+	 position: absolute;
+  bottom: 120px;
+  right: 100px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+
+/* ///////////////////// AUDIO PLAYER STYLE ////////////////////// */
+
+.volume-stuff {
+  position: fixed;
+    bottom: 20px;
+    left: 20px;
+    /* width: 200px;
+    height: 50px;
+    border: 5px magenta solid;
+    background: white; */
+}
+
+.audio-player {
+  height: 50px;
+  width: 130px;
+  background: #02060B;
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+	color: whitesmoke;
+  font-size: 30px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 6px auto;
+}
+.audio-player .controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0 20px;
+}
+.audio-player .controls > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ /* play button*/
+.audio-player .controls .toggle-play.play {
+  cursor: pointer;
+  position: relative;
+  left: -7px;
+  height: 0;
+  width: 0;
+  border: 7px solid #0000;
+  border-left: 13px solid white;
+}
+.audio-player .controls .toggle-play.play:hover {
+  transform: scale(1.1);
+}
+.audio-player .controls .toggle-play.mute {
+  height: 15px;
+  width: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.audio-player .controls .toggle-play.mute:before {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background: white;
+  content: "";
+  height: 15px;
+  width: 3px;
+}
+.audio-player .controls .toggle-play.mute:after {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  background: white;
+  content: "";
+  height: 15px;
+  width: 3px;
+}
+.audio-player .controls .toggle-play.mute:hover {
+  transform: scale(1.1);
+}
+.audio-player .controls .time {
+  display: flex;
+}
+.audio-player .controls .time > * {
+  padding: 2px;
+}
+.audio-player .controls .volume-container {
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+.audio-player .controls .volume-container .volume-button {
+  height: 26px;
+  display: flex;
+  align-items: center;
+}
+.audio-player .controls .volume-container .volume-button .volume {
+  transform: scale(0.7);
+}
+.audio-player .controls .volume-container .volume-slider {
+  position: absolute;
+  left: -3px;
+  top: 15px;
+  z-index: -1;
+  width: 0;
+  height: 15px;
+  background: white;
+  box-shadow: 0 0 20px #000a;
+  transition: .25s;
+}
+.audio-player .controls .volume-container .volume-slider .volume-percentage {
+  background: #59BDB6;
+  height: 100%;
+  width: 75%;
+}
+.audio-player .controls .volume-container:hover .volume-slider {
+  left: -123px;
+  width: 120px;
+}
+
+/* ///////////////////// END AUDIO PLAYER STYLE ////////////////////// */
+
+
+
+
+
+/* ///////////////////// Scroll STYLE ////////////////////// */
+body {
+  font-family: Helvetica,Tahoma;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.aos-all {
+  width: 1100px;
+  max-width: 98%;
+	  margin: 10vh auto 0 auto;
+
+}
+
+.aos-item {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  height: 300px;
+  padding: 20px;
+}
+
+.aos-item__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #1da4e2;
+  line-height: 260px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .aos-item {
+    width: 50%;
+  }
+}
+/* ///////////////////// Scroll STYLE ////////////////////// */
+
+
+
+/* ///////////////////// CHAPTER MENU ////////////////////// */
+
+.Menutext {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #78E4FF;
+  text-align: left;
+}
+
+.bar {
+  display: inherit;
+  background-color: #EF8354;
+  position: fixed;
+    top: 50px;
+    margin-left: 1320px;
+}
+
+.braceletmenu {
+  display: inherit;
+  position: fixed;
+    top: 30px;
+    margin-left: 1280px;
+}
+
+.menupic{
+  width: 50%;
+	  position: fixed;
+    top: 50px;
+    margin-left: 1320px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #080C14;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+	font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: #3E7B7D;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #78E4FF;
+	  text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 56px;
+  margin-left: 50px;
+}
+
+.sidenav .insta {
+  position: absolute;
+  top: 580px;
+  right: 25px;
+  font-size: 56px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+/* /////////////////////  MODAL////////////////////// */
